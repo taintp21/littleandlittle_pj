@@ -51,11 +51,10 @@
             <input type="hidden" name="email" value="taintp21@gmail.com">
             <button type="submit" class="btn ms-3 btn_payment_return">Gửi Email</button>
         </form>
-        
-        @if(session()->has('messageSuccess'))
-            <p style="color: white;">{!! session()->get('messageSuccess') !!}</p>
-        @endif
     </div>
+    @if(session()->has('messageSuccess'))
+        <p class="text-center fw-bold text-white">{!! session()->get('messageSuccess') !!}</p>
+    @endif
 @endsection
 
 
