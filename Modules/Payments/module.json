@@ -1,0 +1,18 @@
+{
+    "name": "Payments",
+    "alias": "payments",
+    "description": "",
+    "keywords": [],
+    "version": "1.0.0",
+	"active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Payments\\Providers\\PaymentsServiceProvider",
+        "Modules\\Payments\\Providers\\RouteServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        
+    ],
+    "requires": []
+}
