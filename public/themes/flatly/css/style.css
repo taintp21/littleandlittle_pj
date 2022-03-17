@@ -62,12 +62,6 @@ main{
     column-gap: 30px;
 }
 
-.event_content img{
-    width: 288px;
-    height: 208px;
-    margin-bottom: 20px;
-}
-
 .formDatVe{
     background-color: #FFF6D4;
     border-radius: 20px;
